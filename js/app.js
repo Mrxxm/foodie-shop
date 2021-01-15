@@ -10,8 +10,8 @@ window.app = {
     // serverUrl: "http://api.kenrou.cn:8018",                                       // 接口服务接口地址
     // paymentServerUrl: "https://pay.kenrou.cn/",                                   // 支付中心服务地址
     // shopServerUrl: "http://shop.kenrou.cn:8080/foodie-shop/",                     // 门户网站地址
-    // centerServerUrl: "http://center.kenrou.com:8080/foodie-center/",              // 用户中心地址
-    // cookieDomain: "kenrou.cn",                                                    // cookie 域
+    // centerServerUrl: "http://center.kenrou.cn:8080/foodie-center/",              // 用户中心地址
+    // cookieDomain: ".kenrou.cn",                                                    // cookie 域
 
     ctx: "/foodie-shop",
 
