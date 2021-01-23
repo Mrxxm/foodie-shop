@@ -1,17 +1,17 @@
 window.app = {
     /* 开发环境 */
-    serverUrl: "http://localhost:8018",                                           // 接口服务接口地址
-    paymentServerUrl: "https://pay.kenrou.cn/",                                   // 支付中心服务地址
-    shopServerUrl: "http://localhost:8080/foodie-shop/",                          // 门户网站地址
-    centerServerUrl: "http://localhost:8080/foodie-center/",                      // 用户中心地址
-    cookieDomain: "localhost",                                                    // cookie 域
+    // serverUrl: "http://localhost:8018",                                           // 接口服务接口地址
+    // paymentServerUrl: "https://pay.kenrou.cn/",                                   // 支付中心服务地址
+    // shopServerUrl: "http://localhost:8080/foodie-shop/",                          // 门户网站地址
+    // centerServerUrl: "http://localhost:8080/foodie-center/",                      // 用户中心地址
+    // cookieDomain: "localhost",                                                    // cookie 域
 
     /* 生产环境 */
-    // serverUrl: "http://api.kenrou.cn:8018/foodie-dev-api/",                       // 接口服务接口地址
-    // paymentServerUrl: "https://pay.kenrou.cn/",                                   // 支付中心服务地址
-    // shopServerUrl: "http://shop.kenrou.cn:8080/foodie-shop/",                     // 门户网站地址
-    // centerServerUrl: "http://center.kenrou.cn:8080/foodie-center/",               // 用户中心地址
-    // cookieDomain: ".kenrou.cn",                                                   // cookie 域
+    serverUrl: "http://api.kenrou.cn:8018/foodie-dev-api/",                       // 接口服务接口地址
+    paymentServerUrl: "https://pay.kenrou.cn/",                                   // 支付中心服务地址
+    shopServerUrl: "http://shop.kenrou.cn",                     // 门户网站地址
+    centerServerUrl: "http://center.kenrou.cn",               // 用户中心地址
+    cookieDomain: ".kenrou.cn",                                                   // cookie 域
 
     ctx: "/foodie-shop",
 
